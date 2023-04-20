@@ -15,22 +15,16 @@ class Navbar extends Component {
       <div class="container">
         <nav>
           <a href="/" class="logo">
-            <img src="./images/logo.png" />
-            <img src="./images/logo2.png" alt="" />
+            <img src="./images/logo.png" alt="main logo" />
+            <img src="./images/logo2.png" alt="logo" />
           </a>
           <div>
             <ul id="nav__links" className={this.state.clicked ? "active" : ""}>
-              <li>
-                <a href="#">NavLink</a>
-              </li>
               <li>
                 <a href="#about">About</a>
               </li>
               <li>
                 <a href="#listings">Listings</a>
-              </li>
-              <li>
-                <a href="#">NavLink</a>
               </li>
               <li>
                 <button class="navBtn">

@@ -4,7 +4,7 @@ const Footer = () => (
     <div className="topFooter">
       <div className="rightFooter">
         <div className="mainLogo">
-          <img src="./images/logo.png" />
+          <img src="./images/logo.png" alt="site round logo" />
           <img src="./images/logo2.png" alt="site logo" />
         </div>
 
@@ -15,21 +15,21 @@ const Footer = () => (
           expedita.
         </p>
         <div className="logo">
-          <a href="#">
+          <a href="https://www.facebook.com/matthewopoola">
             <img
               src="./images/icon-facebook.png"
               alt="facebook"
               className="icon-facebook"
             />{" "}
           </a>
-          <a href="#">
+          <a href="https://www.twitter.com">
             <img
               src="./images/icon-twitter.png"
               alt="facebook"
               className="icon-twitter"
             />{" "}
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com">
             <img
               src="./images/icon-linkedin.png"
               alt="facebook"
@@ -49,34 +49,34 @@ const Footer = () => (
         <div className="innerLeftDiv company">
           <h1>Company</h1>
           <p>
-            <a href="#">About Us</a>
+            <a href="/">About Us</a>
           </p>
           <p>
-            <a href="#">Career</a>
+            <a href="/">Career</a>
           </p>
           <p>
-            <a href="#">Become an Investor</a>
+            <a href="/">Become an Investor</a>
           </p>
         </div>
         <div className="innerLeftDiv support">
           <h1>Support</h1>
           <p>
-            <a href="#">FAQ</a>
+            <a href="/">FAQ</a>
           </p>
           <p>
-            <a href="#">Policy</a>
+            <a href="/">Policy</a>
           </p>
           <p>
-            <a href="#">Business</a>
+            <a href="/">Business</a>
           </p>
         </div>
         <div className="innerLeftDiv contact">
           <h1>Contact</h1>
           <p>
-            <a href="#">WhatsApp</a>
+            <a href="/">WhatsApp</a>
           </p>
           <p>
-            <a href="#">Support 24</a>
+            <a href="/">Support 24</a>
           </p>
         </div>
       </div>
