@@ -1,0 +1,67 @@
+/* header */
+/* header {
+  margin-top: 0;
+  background: linear-gradient(
+    225.52deg,
+    #271a00 0.45%,
+    rgba(0, 0, 0, 0.982162) 100.47%
+  );
+  height: fit-content;
+  min-height: 20vh;
+  width: 100%;
+  display: block;
+  align-items: center;
+} */
+#displayHeader {
+  margin-top: 0;
+  background: linear-gradient(
+    225.52deg,
+    #271a00 0.45%,
+    rgba(0, 0, 0, 0.982162) 100.47%
+  );
+  min-height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* main header */
+
+.displayHeader .displayHeaderContainer {
+  height: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+
+.displayHeader .displayHeaderContainer .end {
+  text-align: end;
+}
+
+.displayHeader .displayHeaderTextDiv {
+  text-align: start;
+  height: 80%;
+  width: 50%;
+  padding-top: 5%;
+}
+.displayHeader .displayHeaderText {
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.displayHeader .displayText {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.502564px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+/* main header */
+/* header */

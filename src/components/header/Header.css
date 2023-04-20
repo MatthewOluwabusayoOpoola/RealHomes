@@ -1,0 +1,79 @@
+/* header */
+.homeHeader {
+  margin-top: 0;
+  background-image: url("../../../public/images/bgImg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* main header */
+.container {
+  width: 90%;
+  margin: auto;
+  height: fit-content;
+}
+.header {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.headerTextDiv {
+  text-align: start;
+  min-height: 80vh;
+  width: 50%;
+  padding: 10% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.headerText {
+  font-family: "DM Sans", sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  color: #ffffff;
+  margin: 40px 0 20px 0;
+}
+
+.text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 140% */
+  letter-spacing: -0.502564px;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.listingDiv {
+  background-color: #fff;
+  height: 100px;
+  padding: 38px;
+}
+.listingDiv a {
+  color: #000;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.502564px;
+  font-weight: 800;
+
+  color: #000000;
+}
+/* main header */
+/* header */
+
+@media screen and (max-width: 860px) {
+  .headerTextDiv {
+    width: 100%;
+  }
+}

@@ -1,0 +1,67 @@
+/* Client Section*/
+.clientSection {
+  background: #e4e6f1;
+  height: fit-content;
+  padding: 50px 0;
+}
+.clientDiv {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.clientTop {
+  max-width: 336px;
+}
+
+.clientDiv .horizontalLine {
+  background: linear-gradient(90deg, #ffac12 0%, #000000 94.96%);
+  border-radius: 2px;
+  height: 8px;
+  max-width: 336px;
+  display: block;
+}
+
+.clientTopP {
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.603077px;
+  font-weight: 900;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.clients {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.client {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  background: #e4e6f1;
+  height: 141px;
+  width: 336px;
+  align-items: center;
+  padding: 20px 60px;
+}
+.black {
+  background: #000000;
+  color: white;
+}
+/* Client Section*/
+
+@media screen and (max-width: 900px) {
+  .hide {
+    display: none;
+  }
+  .clients {
+    justify-content: center;
+  }
+}
